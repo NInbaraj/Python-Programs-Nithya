@@ -1,4 +1,5 @@
 #Get 2 persons salary and calculate the sum of the salaries
+#WOrk more on making this a bigger program
 
 person1 = int(input('Enter the salary of person 1 ='))
 person2 = int(input('Enter the salary of person 2 ='))
