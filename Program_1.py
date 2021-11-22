@@ -1,5 +1,5 @@
 #Calculate the BMI of a Person
-#Give the appropriate message for BMI values
+#Give the appropriate message for BMI valuesaaaaaaaa
 height = float(input('Your height in inches: '))
 weight = float(input('Your weight in pounds: '))
 bmi = float(weight/(height*height))*703
