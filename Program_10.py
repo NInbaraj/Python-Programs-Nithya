@@ -1,4 +1,4 @@
-# Writng the same program 6 differenty
+# Writng the same program 6 different
 
 my_list = []
 for i in range (6):
