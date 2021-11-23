@@ -2,7 +2,7 @@
 num_list = []
 
 def add_num_list():
-    for i in range(3):
+    for i in range(5):
         number = int(input('Enter number: '))
         num_list.append(number)
     return num_list
