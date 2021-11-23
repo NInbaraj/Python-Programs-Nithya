@@ -1,4 +1,4 @@
-#Use Def to reduce the number of lines in the Program
+#Using Append and range
 #Adding values in a list. Create multiple lists with string, float and interger values
 
 my_string_list = []

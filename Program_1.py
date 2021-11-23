@@ -1,5 +1,7 @@
+
 #Calculate the BMI of a person
 #Give appropriate message based on BMI
+#Calculate the BMI of a Person
 
 height = float(input('Your height in inches: '))
 weight = float(input('Your weight in pounds: '))
