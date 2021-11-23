@@ -1,11 +1,11 @@
 # Entering the numbers into a list
 
 
-My_list = []
-x = range(10, 60, 10)
-for n in x:
-    My_list.append(n)
-    print(My_list)
+my_list = []
+my_values = range(10, 61, 10)
+for each_value in my_values:
+    my_list.append(each_value)
+    print(my_list)
 
     
 
