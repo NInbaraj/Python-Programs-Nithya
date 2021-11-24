@@ -1,3 +1,4 @@
+#Learning to use append to reduce lines in the code
 # Writng the same program 6 differenty
 
 my_list = []
