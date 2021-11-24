@@ -1,5 +1,8 @@
+
+#Calculate the BMI of a person
+#Give appropriate message based on BMI
 #Calculate the BMI of a Person
-#Give the appropriate message for BMI valuesaaaaaaaa
+
 height = float(input('Your height in inches: '))
 weight = float(input('Your weight in pounds: '))
 bmi = float(weight/(height*height))*703
@@ -15,7 +18,7 @@ elif bmi <= 34.9:
     print('Your BMI is: ', bmi, 'You are Moderately Obese')
 elif bmi <= 39.9:
     print('Your BMI is: ', bmi, 'You are Severely Obese')
-elif bmi >= 40:
+elif bmi > 39.9:
     print('Your BMI is: ', bmi, 'You are Morbidly Obese')
     
 
