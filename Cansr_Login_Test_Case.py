@@ -5,6 +5,9 @@ Test Case 1 to login for existing user
 import time
 from selenium import webdriver
 
+import config_cansr as conf
+
+
 # Create an instance of Chrome Browser
 browser = webdriver.Chrome()
 
@@ -22,12 +25,12 @@ time.sleep(5)
 # Find the email field using xpath with id
 email = browser.find_element_by_xpath("//input[@id='inp_loginid']")
 # KEY POINT: Send text to an element using send_keys method
-email.send_keys('danielhayward@yopmail.com')
+email.send_keys(conf.email)
 time.sleep(5)
 
 # Find the password field using xpath with id
 password = browser.find_element_by_xpath("//input[@id='inp_password']")
-password.send_keys('Chen@42VA')
+password.send_keys(conf.password)
 time.sleep(5)
 
 # Find the login field using xpath with id
