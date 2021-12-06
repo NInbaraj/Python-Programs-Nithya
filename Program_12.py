@@ -7,7 +7,7 @@ my_integer_list =[]
 
 def add_values_in_list():
     for i in range(5):
-        my_value = input('Enter the value')
+        my_value = input('Enter the value:  ')
         my_list.append(my_value)
     return my_list
 
