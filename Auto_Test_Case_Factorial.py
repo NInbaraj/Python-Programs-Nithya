@@ -9,7 +9,10 @@ from selenium import webdriver
 driver = webdriver.Chrome()
 
 # The driver.get method will navigate to a page given by the URL
+<<<<<<< HEAD
 driver.maximize_window()
+=======
+>>>>>>> main
 driver.get("https://qainterview.pythonanywhere.com/")
 
 # Check if the title of the page is proper
