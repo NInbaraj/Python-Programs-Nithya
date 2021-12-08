@@ -18,18 +18,18 @@ if(browser.title=="Cansr | Login"):
     print ("Success: Cansr application page launched successfully")
 else:
     print ("Failure: Cansr application page Title is incorrect")
-time.sleep(5)
+time.sleep(3)
 
 # Find the email field using xpath with id
 email = browser.find_element_by_xpath("//input[@id='inp_loginid']")
 # KEY POINT: Send text to an element using send_keys method
 email.send_keys('sophiebishop@yopmail.com')
-time.sleep(5)
+time.sleep(3)
 
 # Find the password field using xpath with id
 password = browser.find_element_by_xpath("//input[@id='inp_password']")
 password.send_keys('Chen@42VA')
-time.sleep(5)
+time.sleep(3)
 
 # Find the login field using xpath with id
 login = browser.find_element_by_xpath("//button[contains(text(),'Login')]")
