@@ -2,6 +2,7 @@
 Write an automation test case for Cansr application for Entering Patients details in the Registation
 
 '''
+
 import time
 from selenium import webdriver
 
@@ -65,7 +66,6 @@ submit.send_keys('Yes')
 
 
 browser.close()
-
 
 
 

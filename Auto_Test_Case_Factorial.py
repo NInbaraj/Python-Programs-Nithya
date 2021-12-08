@@ -1,3 +1,7 @@
+
+
+
+
 '''
 Automation Test Case for Factorial Calculator for Positive Integer
 '''
@@ -9,6 +13,10 @@ from selenium import webdriver
 driver = webdriver.Chrome()
 
 # The driver.get method will navigate to a page given by the URL
+
+driver.maximize_window()
+
+
 driver.get("https://qainterview.pythonanywhere.com/")
 
 # Check if the title of the page is proper
