@@ -1,6 +1,7 @@
 '''
-#Repeating program11 using Def to minimize the number of in program
-#Adding values in a list. Create multiple lists with string, float and interger value
+Repeating program11 using Def to minimize the number of in program
+Adding values in a list. Create multiple lists with string, float and interger value
+
 '''
 my_list = []
 my_string_list = []
@@ -8,7 +9,7 @@ my_float_list = []
 my_integer_list =[]
 
 def add_values_in_list():
-    for i in range(5):
+    for i in range(2):
 
         my_value = input('Enter the value:  ')
         my_list.append(my_value)
