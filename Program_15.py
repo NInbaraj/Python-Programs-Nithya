@@ -1,4 +1,10 @@
-# Finding the Max number
+'''
+1. Accepting numbers in a list
+2. Finding the max value
+3. sorting the list ascending
+
+'''
+
 num_list = []
 
 def add_num_list():
@@ -19,7 +25,6 @@ def sort_list(my_list):
     for i in range(len(my_list)):
 
         for j in range(i+1, len(my_list)):
-
             if (my_list[i] > my_list[j]):
                 temp = my_list[i]
                 my_list[i] = my_list[j]
