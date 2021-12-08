@@ -1,4 +1,8 @@
-# Entering the numbers into a list
+'''
+Entering numbers into a List
+using the Append Method
+
+'''
 
 
 my_list = []
