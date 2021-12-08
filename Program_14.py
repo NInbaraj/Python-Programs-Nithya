@@ -1,4 +1,10 @@
-# Finding the Max number
+'''
+Writing a program for
+1. Accepting values into a list
+2. Printing the list
+3. Finding the max value
+'''
+
 num_list = []
 
 def add_num_list():
