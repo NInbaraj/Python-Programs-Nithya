@@ -1,3 +1,7 @@
+'''
+Write a python Program to accept values in a list and get the difference between the maximum value and minimum value
+'''
+
 # Finding the Max number
 num_list = []
 
@@ -26,13 +30,17 @@ def sort_list(my_list):
                 my_list[j] = temp
     return my_list
 
+
+
 num_list = add_num_list()
 print(num_list)
 
 max_number = find_max_number()
-print('The max number is: ', max_number)
+print('The highest number is: ', max_number)
 
-
-# Sort the list Ascending
 my_list = sort_list(num_list)
-print('List sorted by Ascending number ', my_list)
+print('List sorted by Ascending number: ', my_list)
+diff = my_list[-1]-my_list[0]
+print('The smallest number is: ', *my_list[:1]) 
+print('The difference is: ', diff)
+
