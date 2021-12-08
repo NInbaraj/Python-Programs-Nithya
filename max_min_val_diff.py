@@ -1,5 +1,6 @@
 '''
-Write a python Program to accept values in a list and get the difference between the maximum value and minimum value
+1. Write a python Program to accept values in a listG
+2. Get the difference between the maximum value and minimum value
 '''
 
 # Finding the Max number
