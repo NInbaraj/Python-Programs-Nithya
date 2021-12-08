@@ -1,6 +1,10 @@
-#Using Append and range
-#Adding values in a list. Create multiple lists with string, float and interger values
+'''
+Using Append and range
 
+Adding values in a list. 
+
+Create multiple lists with string, float and interger values
+'''
 my_string_list = []
 my_float_list = []
 my_integer_list = []
