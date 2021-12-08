@@ -1,11 +1,13 @@
-
 '''
 My First Python program
 Calculate the BMI of a Person
-#Give the appropriate message for BMI value
+#Give the appropriate message for BMI values
+Merge conflicts in the remote
+
 '''
 
 height = float(input('Your height in inches: '))
+
 weight = float(input('Your weight in pounds: '))
 
 bmi = float(weight/(height*height))*703
