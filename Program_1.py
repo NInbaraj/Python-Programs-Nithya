@@ -1,7 +1,8 @@
+
 '''
 My First Python program
 Calculate the BMI of a Person
-#Give the appropriate message for BMI values
+#Give the appropriate message for BMI value
 '''
 
 height = float(input('Your height in inches: '))
