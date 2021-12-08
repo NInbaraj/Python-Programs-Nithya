@@ -32,6 +32,7 @@ print(num_list)
 max_number = find_max_number()
 print('The max number is: ', max_number)
 
+
 # Sort the list Ascending
 my_list = sort_list(num_list)
 print('List sorted by Ascending number ', my_list)
