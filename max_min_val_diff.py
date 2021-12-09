@@ -41,7 +41,10 @@ print('The highest number is: ', max_number)
 
 my_list = sort_list(num_list)
 print('List sorted by Ascending number: ', my_list)
-diff = my_list[-1]-my_list[0]
+
+#Calculating the difference between the largest and least
+diff = my_list[4]-my_list[0]
+
 print('The smallest number is: ', *my_list[:1]) 
 print('The difference is: ', diff)
 
